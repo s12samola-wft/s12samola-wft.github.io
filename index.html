@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samson Olajide — DevOps & Cloud Engineer | Ottawa</title>
+<meta name="description" content="Samson Olajide — DevOps / Platform / Cloud Engineer in Ottawa. Kubernetes, Terraform, AWS, Docker, CI/CD. Portfolio projects and freelance services for startups and small businesses.">
+<style>
+  :root{
+    --bg:#0e1420; --panel:#16202f; --panel2:#1b293d; --ink:#e8eef6; --muted:#9fb2c8;
+    --accent:#4cc2ff; --accent2:#7ee0a3; --line:#263750;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  body{background:var(--bg); color:var(--ink); font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6}
+  .wrap{max-width:960px; margin:0 auto; padding:0 20px}
+  header{padding:64px 0 40px; text-align:left}
+  .eyebrow{color:var(--accent); font-weight:600; letter-spacing:.12em; text-transform:uppercase; font-size:.8rem}
+  h1{font-size:2.6rem; line-height:1.15; margin:10px 0 6px}
+  .role{font-size:1.25rem; color:var(--muted); margin-bottom:18px}
+  .lede{max-width:640px; color:var(--ink); font-size:1.05rem}
+  .cta{margin-top:26px; display:flex; gap:12px; flex-wrap:wrap}
+  .btn{display:inline-block; padding:11px 20px; border-radius:8px; text-decoration:none; font-weight:600; font-size:.95rem}
+  .btn-primary{background:var(--accent); color:#06283d}
+  .btn-ghost{border:1px solid var(--line); color:var(--ink)}
+  section{padding:34px 0; border-top:1px solid var(--line)}
+  h2{font-size:1.5rem; margin-bottom:16px}
+  h2 span{color:var(--accent)}
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); gap:16px}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:20px}
+  .card h3{font-size:1.08rem; margin-bottom:6px}
+  .card h3 a{color:var(--ink); text-decoration:none}
+  .card h3 a:hover{color:var(--accent)}
+  .card p{color:var(--muted); font-size:.94rem}
+  .tag{display:inline-block; background:var(--panel2); border:1px solid var(--line); color:var(--accent2);
+       border-radius:999px; padding:2px 10px; font-size:.75rem; margin:8px 6px 0 0}
+  .status{display:inline-block; font-size:.75rem; font-weight:700; border-radius:6px; padding:2px 8px; margin-bottom:10px}
+  .done{background:#12351f; color:var(--accent2)}
+  .prog{background:#3a2f10; color:#ffd166}
+  .skills{display:flex; flex-wrap:wrap; gap:8px}
+  .skill{background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:8px 14px; font-size:.92rem}
+  .services .card p{margin-bottom:6px}
+  .price{color:var(--accent); font-weight:600; font-size:.9rem}
+  footer{padding:36px 0 60px; border-top:1px solid var(--line); color:var(--muted); font-size:.92rem}
+  footer a{color:var(--accent); text-decoration:none}
+  .contact-line{font-size:1.05rem; color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Ottawa, Ontario · Available for junior roles & freelance projects</div>
+  <h1>Samson Olajide</h1>
+  <div class="role">DevOps / Platform / Cloud Engineer</div>
+  <p class="lede">I build and run containerized applications, CI/CD pipelines and cloud infrastructure —
+  Kubernetes, Terraform and AWS. Internship experience includes securing a 15-service Kubernetes
+  staging environment with NetworkPolicies, deploying applications with Docker, HashiCorp Vault and
+  Forgejo CI/CD, and on-call monitoring with Prometheus and Grafana. I bring 19 years of
+  quality-assurance discipline — verification, root-cause analysis and audit rigour — into DevOps practice.</p>
+  <div class="cta">
+    <a class="btn btn-primary" href="mailto:samsonayowole009@gmail.com">Email me</a>
+    <a class="btn btn-ghost" href="https://github.com/s12samola-wft" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn btn-ghost" href="https://www.linkedin.com/in/samson-olajide-83316712b" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</header>
+
+<section>
+  <h2>Projects <span>— the proof</span></h2>
+  <div class="grid">
+
+    <div class="card">
+      <span class="status done">Live — client work</span>
+      <h3><a href="https://northwaymedicalsupplies.com" target="_blank" rel="noopener">Northway Medical Supplies</a></h3>
+      <p>A complete website I designed, built and deployed for an Ottawa medical-supplies business —
+      product catalogue, ordering by phone or email, and delivery information — hosted on Cloudflare
+      and live for customers today. A product-inventory expansion with the owner is next.</p>
+      <span class="tag">Client project</span><span class="tag">Cloudflare</span><span class="tag">Static site</span><span class="tag">Small business</span>
+    </div>
+
+    <div class="card">
+      <span class="status prog">In progress</span>
+      <h3><a href="https://github.com/s12samola-wft/terraform-aws-platform" target="_blank" rel="noopener">Terraform AWS Platform</a></h3>
+      <p>The AWS foundation for hosting real applications: VPC and public subnet built as a reusable
+      Terraform module, EC2 host, IAM instance role, and remote state in S3 (versioned, encrypted,
+      locked) stood up through a separate bootstrap configuration.</p>
+      <span class="tag">Terraform</span><span class="tag">AWS</span><span class="tag">S3 remote state</span><span class="tag">Modules</span>
+    </div>
+
+    <div class="card">
+      <span class="status prog">In progress</span>
+      <h3><a href="https://github.com/s12samola-wft/freshtrack" target="_blank" rel="noopener">FreshTrack</a></h3>
+      <p>A household food expiry tracker (Flask API) with a hardened Docker image — digest-pinned base,
+      non-root user, hash-locked dependencies — and a CI pipeline that builds, boots, health-checks and
+      Trivy-scans the image. Latest verified run: green, 0 vulnerabilities. Registry publish is next.</p>
+      <span class="tag">Docker</span><span class="tag">GitHub Actions</span><span class="tag">Trivy</span><span class="tag">Python</span>
+    </div>
+
+    <div class="card">
+      <span class="status done">Delivered at internship</span>
+      <h3>Kubernetes NetworkPolicy Hardening</h3>
+      <p>Mapped every legitimate flow of a 15-microservice staging application (plus Redis and MongoDB)
+      into a traffic matrix and implemented per-service NetworkPolicies on AKS with Calico — delivered
+      through Helm and Argo CD and presented in a technical demo. Egress rules follow as stage two.</p>
+      <span class="tag">Kubernetes</span><span class="tag">Calico</span><span class="tag">Helm</span><span class="tag">Argo CD</span>
+    </div>
+
+    <div class="card">
+      <span class="status done">Home lab</span>
+      <h3>Argo CD GitOps Lab</h3>
+      <p>Self-hosted Argo CD on Minikube, connected to GitHub, deploying Kubernetes applications
+      GitOps-style — including Argo CD RBAC with a non-default, read-only user who can view
+      applications but cannot create or delete them.</p>
+      <span class="tag">Argo CD</span><span class="tag">GitOps</span><span class="tag">RBAC</span><span class="tag">Minikube</span>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <span class="skill">Linux</span><span class="skill">Docker</span><span class="skill">Kubernetes</span>
+    <span class="skill">Terraform</span><span class="skill">AWS</span><span class="skill">Git & GitHub</span>
+    <span class="skill">GitHub Actions</span><span class="skill">Forgejo CI/CD</span><span class="skill">Argo CD</span>
+    <span class="skill">Helm</span><span class="skill">HashiCorp Vault</span><span class="skill">Keycloak</span>
+    <span class="skill">PostgreSQL</span><span class="skill">Prometheus</span><span class="skill">Grafana</span>
+    <span class="skill">Python</span><span class="skill">Bash</span>
+  </div>
+  <p style="color:var(--muted); margin-top:14px; font-size:.94rem">Certification in progress: AWS Certified Cloud Practitioner (exam November 2026).</p>
+</section>
+
+<section class="services">
+  <h2>Work with me <span>— for startups & small businesses</span></h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Business website, built & hosted</h3>
+      <p>A fast, secure website for your business — designed, built, deployed and hosted with
+      HTTPS and your own domain, so customers can find and trust you. (Recent work: northwaymedicalsupplies.com, live in Ottawa.)</p>
+      <p class="price">Get in touch for a quote</p>
+    </div>
+    <div class="card">
+      <h3>Put your app in Docker & online</h3>
+      <p>Already have an app? I'll containerize it properly — secure image, health checks — and get it
+      deployed with automated builds, so updates ship in minutes, not weekends.</p>
+      <p class="price">Get in touch for a quote</p>
+    </div>
+    <div class="card">
+      <h3>CI/CD & cloud setup</h3>
+      <p>Automated pipelines, infrastructure as code with Terraform, monitoring and backups — the
+      engineering foundations a growing product needs, set up right the first time.</p>
+      <p class="price">Get in touch for a quote</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p class="contact-line">Have a project, a role, or a website to build?
+  Email me at <a href="mailto:samsonayowole009@gmail.com" style="color:var(--accent)">samsonayowole009@gmail.com</a> —
+  I reply within one business day.</p>
+</section>
+
+<footer>
+  Samson Olajide · Ottawa, ON ·
+  <a href="https://github.com/s12samola-wft" target="_blank" rel="noopener">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/samson-olajide-83316712b" target="_blank" rel="noopener">LinkedIn</a>
+</footer>
+
+</div>
+</body>
+</html>
